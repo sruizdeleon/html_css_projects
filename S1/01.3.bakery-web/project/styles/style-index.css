@@ -1,0 +1,50 @@
+/* SECTION I */
+
+
+.img-size {
+    width: 100%;
+    height: auto;
+}
+
+/* SECTION II - MENU ITEMS */
+
+.text-container {
+    max-width: 800px;
+}
+
+.card-container {
+    width: auto;
+    margin: 10px 10px;
+}
+
+.card-text-container {
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-text-price {
+    font-size: 26px;
+}
+
+.secttion__margin--30px {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+
+/* SECCTION III Call to action */
+
+.background-section__image {
+    background-image: url('../img/Imagen\ fondo\ sección\ 3.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section__minhight--500px {
+    min-height: 500px;
+}

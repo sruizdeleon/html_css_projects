@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/style-contacto.css">
+        <title>Contacto</title>
+    </head>
+    <body class="display-column-center-center">
+        <h1 class="title">Registrate y recibe toda nuestra gama de panes</h1>
+        <div class="contenedor background-principal1">
+            <form class="form" action="post">
+                <fieldset class="fieldset">
+                    <legend>Datos de contacto</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input class="text" type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                        <label for="apellidos">Apellidos</label>
+                        <input class="text" type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Dirección postal</legend>
+                    <div>
+                        <label for="direccion1">Dirección</label>
+                        <input class="text" type="text" id="direccion1" name="direccion1" placeholder="Introduce dirección">
+                        <label for="postal">Código postal</label>
+                        <input class="text" type="text" id="postal" name="postal" placeholder="CP">
+                    </div>
+                    <div>
+                        <label for="provincia">Provincia</label>
+                        <input class="text" type="text" id="provincia" name="provincia" placeholder="Provincia">
+                        <label for="municipio">Municipio</label>
+                        <input class="text" type="text" id="municipio" name="municipio" placeholder="Municipio">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tus intereses</legend>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="entrantes" name="entrantes">
+                        <label for="entrantes">Recetas de pan</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="principales" name="principales">
+                        <label for="principales">Recetas de bollería</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="postres" name="postres">
+                        <label for="postres">Recetas de tartas</label>
+                    </div>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="cocteles" name="cocteles">
+                        <label for="cocteles">Recetas de pastelería</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tu dieta</legend>
+                    <div>
+                        <select class="text" name="alimentacion" id="alimentacion">
+                            <option value="vegetariano">Vegetariano</option>
+                            <option value="vegano">Vegano</option>
+                            <option value="carnivoro">Carnivoro</option>
+                            <option value="homnivoro">Homnivoro</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="button-container background-white display-column-center-center">
+                <a class="button-style text-color-principal1" href="#">Enviar</a>
+            </div>
+        </div>
+    </body>
+</html>

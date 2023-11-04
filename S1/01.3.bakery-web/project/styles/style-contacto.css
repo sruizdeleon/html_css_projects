@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.background-principal1 {
+    background-color: #E2781A;
+}
+
+.contenedor {
+    padding: 30px;
+    border-radius: 20px 100px;
+    width: 50%;
+}
+
+fieldset {
+    border: none;
+    margin: 20px 40px;
+    font-family:'Regular-400';
+}
+
+form {
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px 100px;
+    margin-bottom: 30px;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-family:'Regular-400';
+    padding: 0px 10px;
+}
+
+label {
+    font-family:'Regular-400';
+}
+
+.text {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.checkbox {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-style: none;
+}
