@@ -1,0 +1,6 @@
+
+@mixin desktop {
+    @media only screen and (min-width: #{$layout_bp_desktop}) {
+        @content;
+    }
+}

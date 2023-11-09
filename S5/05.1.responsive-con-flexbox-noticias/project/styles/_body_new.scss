@@ -1,0 +1,12 @@
+
+
+.article-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.img-container {
+    &__img{
+        width: fit-content;
+    }
+}
