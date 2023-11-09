@@ -1,0 +1,208 @@
+@import '../base/general';
+
+.main__background {
+    background-color: $color-background;
+}
+
+.bread {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        width: inherit;
+        max-width: $width-main-contain;
+        margin-top: 15px;
+        margin-bottom: 3px;
+        gap: 5px;
+    }
+
+    &__item {
+        color: $color-font-custom-principal;
+        font-size: $font-size-extra-small;
+        &--active {
+            color: $color-font-grey;
+        }
+    }
+
+    &__separator {
+        fill: $color-font-grey;
+        width: 5px;
+    }
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: $width-main-contain;
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        width: inherit;
+        height: inherit;
+        gap: 20px;
+        list-style: none;
+    }
+
+    &__button {
+        background-color: $color-principal;
+        height: 22px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    &__button-body {
+        color: $color-font-white;
+        font-weight: $font-weight-300;
+        font-size: $font-size-normal;
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+
+    &__button-append {
+        fill: $color-font-white;
+        width: 5px;
+        height: 5px;
+        margin-right: 10px;
+        margin-left: 2px;
+    }
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    &__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 20px;
+        max-width: $width-main-contain;
+    }
+}
+
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    &__header {
+        width: 100%;
+    }
+    &__img {
+        width: 100%;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        height: 100%;
+    }
+
+    &__tittle{
+        font-size: $font-size-big;
+    }
+
+    &__copy {
+        height: 60px;
+        color: $color-font-grey;
+        font-weight: $font-weight-300;
+        font-size: $font-size-small;
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 40px;
+    }
+
+    &__price {
+        font-size: $font-size-small;
+        font-weight: $font-weight-300;
+        color: $color-font-grey;
+    }
+
+    &__price-number {
+        color: $color-font-custom-principal;
+        font-size: $font-size-extra-big;
+    }
+
+    &__button {
+        border: 1px solid $color-principal;
+        padding: 5px 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__button-body {
+        color:$color-font-custom-principal;
+        font-size: $font-size-normal;
+        text-transform: uppercase;
+        width: max-content;
+    }
+
+    &__button-append {
+        margin: 0px 5px;
+        height: 50%;
+        fill: $color-principal;
+    }
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+    &__container {
+        width: 100%;
+        max-width: $width-main-contain;
+        background-color: white;
+    }
+
+    &__body {
+        margin: 20px;
+    }
+
+    &__header {
+        font-size: $font-size-big;
+        font-weight: $font-weight-500;
+        margin-bottom: 10px;
+    }
+
+    &__copy {
+        font-size: $font-size-extra-small;
+        color: $color-font-grey;
+        font-weight: $font-weight-300;
+        margin: 5px 0px;
+    }
+}

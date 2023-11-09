@@ -1,0 +1,1103 @@
+/* Reset browser */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Variables */
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* General styles */
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* ESTILO DE ETIQUETAS */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  margin: 0px;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+.page__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* CLASES */
+/* FUENTES */
+/* Family */
+.font__principal {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font__secundary {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Size */
+.font__size--extra-big {
+  font-size: 30px;
+}
+
+.font__size--big {
+  font-size: 18px;
+}
+
+.font__size--normal {
+  font-size: 12px;
+}
+
+.font__size--small {
+  font-size: 11px;
+}
+
+.font__size--extra-small {
+  font-size: 10px;
+}
+
+/* Weight */
+.font__weight--300 {
+  font-weight: 300;
+}
+
+.font__weight--500 {
+  font-weight: 500;
+}
+
+.font__weight--700 {
+  font-weight: 700;
+}
+
+.font__weight--900 {
+  font-weight: 900;
+}
+
+/* DISPLAYS */
+/* Flex column*/
+/* Flex row*/
+/* Flex spaces */
+/* Display block */
+.inlineblock {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: right;
+  align-items: end;
+}
+
+/* DISPLAY FLEX WRAP */
+.wrap__row--top-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+/* DISPLAY GRID */
+/* Horizontal grid */
+.grid_column--50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_column--20-80 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.grid_column--25-50-25 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+/* Main structure */
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* ESTILO DE ETIQUETAS */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  margin: 0px;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+.page__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* CLASES */
+/* FUENTES */
+/* Family */
+.font__principal {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font__secundary {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Size */
+.font__size--extra-big {
+  font-size: 30px;
+}
+
+.font__size--big {
+  font-size: 18px;
+}
+
+.font__size--normal {
+  font-size: 12px;
+}
+
+.font__size--small {
+  font-size: 11px;
+}
+
+.font__size--extra-small {
+  font-size: 10px;
+}
+
+/* Weight */
+.font__weight--300 {
+  font-weight: 300;
+}
+
+.font__weight--500 {
+  font-weight: 500;
+}
+
+.font__weight--700 {
+  font-weight: 700;
+}
+
+.font__weight--900 {
+  font-weight: 900;
+}
+
+/* DISPLAYS */
+/* Flex column*/
+/* Flex row*/
+/* Flex spaces */
+/* Display block */
+.inlineblock {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: right;
+  align-items: end;
+}
+
+/* DISPLAY FLEX WRAP */
+.wrap__row--top-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+/* DISPLAY GRID */
+/* Horizontal grid */
+.grid_column--50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_column--20-80 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.grid_column--25-50-25 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.nav-sup {
+  background-color: rgb(238, 238, 238);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nav-sup__container {
+  display: inline-flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+}
+.nav-sup__img {
+  max-height: 40px;
+}
+.nav-sup__anchors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.nav-sup__anchor {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.nav-sup__anchor--phone {
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-sup__icon {
+  fill: gray;
+  margin: 0px 5px;
+  width: 10px;
+}
+.nav-sup__icon--phone {
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  fill: gray;
+}
+.nav-sup__separator {
+  width: 1px;
+  height: 15px;
+  background-color: gray;
+  margin: 0px 10px;
+}
+
+.nav-inf {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-top: 1px lightgray solid;
+  border-bottom: 1px lightgray solid;
+}
+.nav-inf__container {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
+.nav-inf__anchor {
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  height: 40px;
+}
+.nav-inf__anchor:hover {
+  border-bottom: 5px solid #78B615;
+  font-weight: 700;
+  color: black;
+}
+.nav-inf__anchor--menu {
+  background-color: #78B615;
+  width: 40px;
+  height: 40px;
+  font-weight: 300;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  text-transform: uppercase;
+}
+.nav-inf__icon--menu {
+  fill: white;
+  height: 20px;
+  width: 20px;
+}
+
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* ESTILO DE ETIQUETAS */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  margin: 0px;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+.page__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* CLASES */
+/* FUENTES */
+/* Family */
+.font__principal {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font__secundary {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Size */
+.font__size--extra-big {
+  font-size: 30px;
+}
+
+.font__size--big {
+  font-size: 18px;
+}
+
+.font__size--normal {
+  font-size: 12px;
+}
+
+.font__size--small {
+  font-size: 11px;
+}
+
+.font__size--extra-small {
+  font-size: 10px;
+}
+
+/* Weight */
+.font__weight--300 {
+  font-weight: 300;
+}
+
+.font__weight--500 {
+  font-weight: 500;
+}
+
+.font__weight--700 {
+  font-weight: 700;
+}
+
+.font__weight--900 {
+  font-weight: 900;
+}
+
+/* DISPLAYS */
+/* Flex column*/
+/* Flex row*/
+/* Flex spaces */
+/* Display block */
+.inlineblock {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: right;
+  align-items: end;
+}
+
+/* DISPLAY FLEX WRAP */
+.wrap__row--top-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+/* DISPLAY GRID */
+/* Horizontal grid */
+.grid_column--50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_column--20-80 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.grid_column--25-50-25 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.background-footer {
+  background-image: url("../../../img/Imagen1.png");
+}
+
+.nav-interna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-top: 0.5px solid rgb(215, 215, 215);
+  background-color: rgb(238, 238, 238);
+}
+.nav-interna__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+.nav-interna__anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+.nav-interna__separator {
+  height: 80%;
+  width: 0.5px;
+  background-color: rgb(215, 215, 215);
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  padding: 30px 0px;
+}
+.banner__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.nav-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+}
+.nav-foot__container {
+  max-width: 800px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+}
+.nav-foot__card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.nav-foot__tittle {
+  color: #78B615;
+  font-size: 12px;
+  text-align: center;
+}
+.nav-foot__body {
+  display: flex;
+  flex-direction: column;
+}
+.nav-foot__body--two-columns {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+.nav-foot__anchor-item {
+  font-weight: 300;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.nav-foot__divisor {
+  height: 0.5px;
+  background-color: #78B615;
+  width: inherit;
+  max-width: 50px;
+  margin: 35px 0px;
+}
+
+.social-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+.social-foot__container-sup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.social-foot__container-inf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin: 30px 0px;
+}
+.social-foot-tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+.social-foot-tarjeta__container-sup {
+  width: auto;
+}
+.social-foot-tarjeta__container-inf {
+  width: auto;
+}
+.social-foot-tarjeta__img {
+  width: 50px;
+}
+.social-foot-tarjeta__anchor {
+  font-weight: 300;
+  font-size: 12px;
+}
+.social-foot-tarjeta__anchor--uppercase {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.social-foot-calidad {
+  display: inline-flex;
+  align-items: center;
+}
+.social-foot-calidad__icon {
+  fill: rgb(173, 173, 173);
+  width: 24px;
+  height: 24px;
+}
+.social-foot-calidad__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.social-foot-calidad__copy {
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+}
+.social-foot-calidad__copy--uppercase {
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.social-foot-tripadvisor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 150px;
+}
+.social-foot-tripadvisor__copy {
+  font-weight: 300;
+  color: rgb(173, 173, 173);
+  font-size: 11px;
+}
+.social-foot-tripadvisor__img {
+  width: 70px;
+}
+
+.social-foot-copy-right {
+  width: auto;
+}
+.social-foot-copy-right__img {
+  width: 150px;
+}
+.social-foot-copy-right__copy {
+  font-size: 10px;
+  font-weight: 300;
+  color: rgb(173, 173, 173);
+}
+
+.social-foot-medias {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.social-foot-medias__copy {
+  font-weight: 300;
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+  margin-bottom: 5px;
+}
+.social-foot-medias__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social-foot-medias__icon-350dg {
+  fill: #78B615;
+  width: 30px;
+  height: 30px;
+  rotate: 350deg;
+}
+.social-foot-medias__icon-10dg {
+  fill: #78B615;
+  width: 30px;
+  height: 30px;
+  rotate: 10deg;
+}
+
+/* Files */
+/* VARIABLES */
+/* Main contain weight */
+/* Font family types */
+/* Types of font weight */
+/* Types of font size */
+/* Main colours pantone */
+/* Font colours */
+/* Anchor colours */
+/* Button colours */
+/* Background page colours */
+/* ESTILO DE ETIQUETAS */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  margin: 0px;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+.page__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* CLASES */
+/* FUENTES */
+/* Family */
+.font__principal {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font__secundary {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Size */
+.font__size--extra-big {
+  font-size: 30px;
+}
+
+.font__size--big {
+  font-size: 18px;
+}
+
+.font__size--normal {
+  font-size: 12px;
+}
+
+.font__size--small {
+  font-size: 11px;
+}
+
+.font__size--extra-small {
+  font-size: 10px;
+}
+
+/* Weight */
+.font__weight--300 {
+  font-weight: 300;
+}
+
+.font__weight--500 {
+  font-weight: 500;
+}
+
+.font__weight--700 {
+  font-weight: 700;
+}
+
+.font__weight--900 {
+  font-weight: 900;
+}
+
+/* DISPLAYS */
+/* Flex column*/
+/* Flex row*/
+/* Flex spaces */
+/* Display block */
+.inlineblock {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: right;
+  align-items: end;
+}
+
+/* DISPLAY FLEX WRAP */
+.wrap__row--top-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+/* DISPLAY GRID */
+/* Horizontal grid */
+.grid_column--50-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_column--20-80 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.grid_column--25-50-25 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.main__background {
+  background-color: rgb(238, 238, 238);
+}
+
+.bread {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.bread__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: inherit;
+  max-width: 800px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  gap: 5px;
+}
+.bread__item {
+  color: #78B615;
+  font-size: 10px;
+}
+.bread__item--active {
+  color: rgb(173, 173, 173);
+}
+.bread__separator {
+  fill: rgb(173, 173, 173);
+  width: 5px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.filter__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.filter__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  gap: 20px;
+  list-style: none;
+}
+.filter__button {
+  background-color: #78B615;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+}
+.filter__button-body {
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+.filter__button-append {
+  fill: white;
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+  margin-left: 2px;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.feed__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 20px;
+  max-width: 800px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.card__header {
+  width: 100%;
+}
+.card__img {
+  width: 100%;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  height: 100%;
+}
+.card__tittle {
+  font-size: 18px;
+}
+.card__copy {
+  height: 60px;
+  color: rgb(173, 173, 173);
+  font-weight: 300;
+  font-size: 11px;
+}
+.card__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 40px;
+}
+.card__price {
+  font-size: 11px;
+  font-weight: 300;
+  color: rgb(173, 173, 173);
+}
+.card__price-number {
+  color: #78B615;
+  font-size: 30px;
+}
+.card__button {
+  border: 1px solid #78B615;
+  padding: 5px 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__button-body {
+  color: #78B615;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: -moz-max-content;
+  width: max-content;
+}
+.card__button-append {
+  margin: 0px 5px;
+  height: 50%;
+  fill: #78B615;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0px;
+}
+.call__container {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+}
+.call__body {
+  margin: 20px;
+}
+.call__header {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.call__copy {
+  font-size: 10px;
+  color: rgb(173, 173, 173);
+  font-weight: 300;
+  margin: 5px 0px;
+}/*# sourceMappingURL=style.css.map */

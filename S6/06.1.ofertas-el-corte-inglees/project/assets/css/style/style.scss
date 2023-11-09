@@ -1,0 +1,22 @@
+
+/* Reset browser */
+
+@import '../src/base/reset';
+
+/* Variables */
+
+@import '../src/variables/variables';
+
+/* General styles */
+
+@import '../src/base/general';
+
+/* Main structure */
+
+@import '../src/layouts/header';
+@import '../src/layouts/footer';
+
+/* Files */
+
+@import '../src/pages/ofertas';
+

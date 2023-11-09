@@ -1,0 +1,115 @@
+@import '../variables/variables';
+@import '../base/general';
+
+
+.nav-sup {
+    background-color: $color-background;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    &__container {
+        display: inline-flex;
+        justify-content: space-between;
+        max-width: $width-main-contain;
+        width: 100%;
+    }
+
+    &__img {
+        max-height: 40px;
+    }
+
+    &__anchors-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+    }
+
+    &__anchor {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $font-size-extra-small;
+        &--phone {
+            font-size: $font-size-big;
+            font-weight: $font-weight-500;
+        }
+    }
+
+    &__icon {
+        fill: gray;
+        margin: 0px 5px;
+        width: 10px;
+
+        &--phone {
+            align-items: center;
+            width: 18px;
+            height: 18px;
+            fill: gray;
+        }
+    }
+
+    &__separator {
+        width: 1px;
+        height: 15px;
+        background-color: gray;
+        margin: 0px 10px;
+    }
+}
+
+
+.nav-inf {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+
+    &__container {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: $width-main-contain;
+    }
+
+    &__anchor {
+        padding: 0px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: $font-size-small;
+        height: 40px;
+    }
+
+    &__anchor:hover {
+        border-bottom: 5px solid $color-principal;
+        font-weight: $font-weight-700;
+        color: $color-font-black;
+    }
+
+    &__anchor--menu {
+        background-color: $color-principal;
+        width: 40px;
+        height: 40px;
+        font-weight: $font-weight-300;
+        font-size: $font-size-extra-small;
+        color: $color-font-white;
+        text-align: center;
+        padding: 3px;
+        text-transform: uppercase;
+    }
+
+    &__icon--menu {
+        fill: white;
+        height: 20px;
+        width: 20px;
+    }
+}
