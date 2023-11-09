@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* Variables */
+/* Estilos generales */
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 16px;
+}
+
+ul li::before {
+  content: "•";
+  color: darkcyan;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+/* Fonts */
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+/* DISPLAY OPTIONS */
+/* Grid */
+.d-g__20-80 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.d-g__30-70 {
+  display: grid;
+  grid-template-columns: 30% 80%;
+}
+
+.d-g__30-10-60 {
+  display: grid;
+  grid-template-columns: 30% 5% 65%;
+}
+
+.d-g__50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* Flex */
+.d-f__row-centre-centre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-f__row-start-centre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+.d-f__column-start-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.d-f__column-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Anchos y largos */
+.witdh-100 {
+  width: 100%;
+}
+
+.witdh-fit-content {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.width-max {
+  max-width: 1000px;
+}
+
+/* ESTRUCTURA */
+/* Logo */
+.img__max-width--250 {
+  max-width: 250px;
+}
+
+/* Form */
+.form__fieldset {
+  border: none;
+}
+
+.form__legend {
+  display: none;
+}
+
+.form__input-box {
+  width: calc(100% - 20px);
+  border-radius: 4px;
+  border: 1.5px rgb(173, 173, 173) solid;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form__button-container {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.form__button {
+  border: none;
+  border: 1.5px rgb(232, 232, 232) solid;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 15px 40px;
+  font-size: 20px;
+  color: rgb(232, 232, 232);
+}
+
+.form__checkbox-container {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.form__check {
+  border-radius: 4px;
+  height: 25px;
+  width: 25px;
+}/*# sourceMappingURL=style.css.map */
