@@ -1,0 +1,207 @@
+@import '../general/variables';
+@import '../general/general';
+
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        max-width: 60vw;
+    }
+
+    &__header-container {
+        border-bottom: 0.5px solid $color-light-grey;
+        padding: 10px 20px;
+        width: fit-content;
+    }
+    &__header {
+        font-family: $font-princial-500;
+        font-size: $font-size-normal;
+        color: $color-light-grey;
+    }
+
+
+    &__nav {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 0.5px solid $color-light-grey;
+        margin: 20px 0px;
+    }
+    &__nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        height: 10vw;
+    }
+    &__item-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: fit-content;
+    }
+    &__item-container:hover {
+        border-bottom: 3px solid $color-first-blue;
+        color: $color-black;
+    }
+    &__item {
+        font-family: $font-princial-600;
+        font-size: $font-size-normal;
+        color: $color-light-grey;
+    }
+    &__item:hover {
+        font-size: 1.6rem;
+        color: $color-black;
+    }
+}
+
+.products__cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: inherit;
+    width: 285px;
+    border: none;
+    margin: 20px 5px;
+    &-header{
+        width: 100%;
+        border: none;
+        background-color: white;
+        &__img {
+            width: 100%;
+        }
+    }
+    &-body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        &__model{
+            font-family: $font-princial-700;
+            font-size: $font-size-normal;
+            color: $color-black;
+        }
+        &__price{
+            font-family: $font-princial-700;
+            font-size: $font-size-small;
+            color: $color-light-grey;
+        }
+    }
+    &-footer {
+        background-color: white;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        &__summary {
+            font-family: $font-princial-700;
+            font-size: $font-size-small;
+            color: $color-black;
+        }
+        &__body {
+            font-family: $font-princial-400;
+            font-size: $font-size-small;
+            color: $color-black;
+        }
+    }
+}
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        width: 100%;
+        max-width: 60vw;
+    }
+    &__first-carrusel {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        width: 100%;
+        margin: 40px 0 20px;
+    }
+    &__second-carrusel {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        width: 100%;
+        margin: 20px 0 40px;
+    }
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: min-content;
+    padding: 15px;
+    border: 1px solid $color-light-grey;
+    &__img {
+        width: 100%;
+    }
+    &__header {
+        font-family: $font-princial-800;
+        font-size: $font-size-big;
+    }
+    &__body {
+        font-family: $font-princial-300;
+        font-size: $font-size-small;
+    }
+    &__summary {
+        font-family: $font-princial-600;
+        font-size: $font-size-small;
+    }
+    &__anchor {
+        font-family: $font-princial-400;
+        font-size: $font-size-small;
+        color: $color-black;
+    }
+    &__video-container {
+        width: 100%;
+        height: 15.5vw;
+    }
+    &__video {
+        width: 100%;
+        height: 100%;
+    }
+}

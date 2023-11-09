@@ -1,0 +1,87 @@
+
+/* PANTONE */
+
+/* Neutral colors */
+$color-black: black;
+$color-white: white;
+$color-light-grey: lightgrey;
+$color-normal-grey: grey;
+$color-dark-grey: dimgray;
+
+/* Other colors */
+$color-first-blue: rgb(28, 105, 213);
+
+/* Backgrounds */
+$color-background-grey: grey;
+$color-background-blue: lightblue;
+
+/* FONTS */
+
+/* Fonts upload */
+
+@font-face {
+    font-family:'Regular-100';
+    src: url('../../fonts/Inter/Inter-Thin.ttf');
+}
+
+@font-face {
+    font-family:'Regular-200';
+    src: url('../../fonts/Inter/Inter-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family:'Regular-300';
+    src: url('../../fonts/Inter/Inter-Light.ttf');
+}
+
+@font-face {
+    font-family:'Regular-400';
+    src: url('../../fonts/Inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family:'Regular-500';
+    src: url('../../fonts/Inter/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family:'Regular-600';
+    src: url('../../fonts/Inter/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family:'Regular-700';
+    src: url('../../fonts/Inter/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family:'Regular-800';
+    src: url('../../fonts/Inter/Inter-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family:'Regular-900';
+    src: url('../../fonts/Inter/Inter-Black.ttf');
+}
+
+/* Font assignment */
+
+$font-princial-100: 'Regular-100';
+$font-princial-200: 'Regular-200';
+$font-princial-300: 'Regular-300';
+$font-princial-400: 'Regular-400';
+$font-princial-500: 'Regular-500';
+$font-princial-600: 'Regular-600';
+$font-princial-700: 'Regular-700';
+$font-princial-800: 'Regular-800';
+$font-princial-900: 'Regular-900';
+
+$font-size-extra-big: 3rem;
+$font-size-big: 2rem;
+$font-size-normal: 1.4rem;
+$font-size-small: 0.8rem;
+$font-size-extra-small: 0.6rem;
+
+
+/* Display elements */
+

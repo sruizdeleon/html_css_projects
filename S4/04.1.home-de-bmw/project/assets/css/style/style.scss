@@ -1,0 +1,15 @@
+/* Reset document */
+@import '../general/reset';
+
+/* Global variables */
+@import '../general/variables';
+
+/* Global styles */
+@import '../general/general';
+
+/* Sections */
+@import '../sections/header';
+@import '../sections/footer';
+
+/* Pages */
+@import '../pages/home';

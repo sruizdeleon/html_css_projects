@@ -1,0 +1,136 @@
+@import '../general/variables';
+@import '../general/general';
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    &__container {
+        max-width: 60vw;
+        height: 100%;
+        width: 100%;
+        border-bottom: 2px white solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__anchor-container {
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__anchor {
+        color: white;
+        font-family: $font-princial-300;
+        font-size: $font-size-normal;
+        margin: 0px 10px;
+    }
+    
+    &__icon-container {
+        display: inline-flex;
+        gap: 30px;
+    }
+
+
+    &__svg {
+        fill: white;
+        height: 20px;
+        width: 20px;
+    }
+
+    &__brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+        width: 8vh;
+        margin-left: 15px;
+    }
+
+    &__logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 60%;
+        width: 100%;
+    }
+    
+    &__logo {
+        height: 80%;
+    }
+    
+    &__slogan-contianer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+    }
+    
+    &__slogan {
+        background-color: rgba($color: #000000, $alpha: 0.2);
+        font-family: $font-princial-600;
+        font-size: $font-size-extra-small;
+        text-align: center;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        background-color: white;
+    }
+}
+
+.hero {
+    width: 100%;
+    background-image: url('../../img/portada.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 800px;
+
+    &__box {
+        height: 30%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    &__title {
+        font-family: $font-princial-700;
+        font-size: $font-size-extra-big;
+        color: $color-white;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-family: $font-princial-600;
+        font-size: $font-size-big;
+        color: $color-white;
+        text-transform: uppercase;
+    }
+    
+    &__button {
+        background-color: $color-first-blue;
+        font-family: $font-princial-400;
+        font-size: $font-size-small;
+        color: $color-white;
+        padding: 10px 60px;
+    }
+}
+
