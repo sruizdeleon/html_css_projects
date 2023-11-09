@@ -1,0 +1,144 @@
+@import '../base/general';
+
+/* SHOP */
+
+/* ETIQUETA */
+
+
+/* CLASES */
+
+
+.page__container {
+    max-width: 1500px;
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+
+
+/* HEADER */
+
+/* Navegación lateral*/
+
+.nav__container {
+    position: absolute;
+    z-index: 0;
+}
+
+.nav__first-anchor {
+    text-transform: uppercase;
+}
+
+/* Cabecera */
+
+.nav__breadcrumbs--grey {
+    color: lightgrey;
+}
+
+.nav__search-bar {
+    border: none;
+}
+
+.nav__search-bar--container {
+    border-bottom: 2px $color-principal solid;
+    height: 30px;
+}
+
+
+
+/* MAIN */
+
+/* Box de productos */
+
+.box {
+    margin: 20px 10px 40px 10px;
+}
+
+.box__img-container {
+    height: 400px;
+}
+
+.box__img {
+    height: 100%;
+}
+
+.box__details-container {
+    height: 40px;
+}
+
+.box__details-price {
+    font-weight: $font-weight-900;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+.width-100 {
+    width: 100%;
+}
+
+.max-width-1200px {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.newsletter {
+    display: flex;
+}
+
+
+.form-email {
+    width: 600px;
+    margin: 20px 0px;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.button {
+    border: none;
+    text-align: center;
+    color: black;
+    font-family: $font-family-principal;
+    font-size: $font-size-small;
+    font-weight: $font-weight-900;
+}
+
+.contacto-container {
+    margin: 20px 0px;
+}
+
+.icon-footer {
+    width: 8px;
+    height: 8px;
+}
+.color-azul {
+    color:darkturquoise;
+}
+
+.contacto-separador {
+    width: 1px;
+    height: 15px;
+    border-left: 2px solid black;
+    margin: 15px 15px;
+}
+
+
+.nav-footer {
+    margin: 80px 0px;
+    margin-top: 2px solid grey;
+    margin-bottom: 2px solid grey;
+    width: 100%;
+}
+
+.nav-footer__list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-footer__list-item {
+    margin: 8px 0px;
+}

@@ -1,0 +1,367 @@
+/* SCSS
+Jerarquía de archivos:
+shop.html <-- shop.scss <--
+suscribe.html <-- suscribe.scss <-- _general.scss
+contact.html <-- contact.scss <--
+*/
+
+
+
+
+
+
+/* FUENTES EXTERNAS */
+
+
+
+
+
+/* VARIABLES */
+
+$font-family-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-family-secundary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+$font-weight-300: 300;
+$font-weight-500: 500;
+$font-weight-700: 700;
+$font-weight-900: 900;
+
+$font-size-extra-big: 55px;
+$font-size-big: 30px;
+$font-size-normal: 18px;
+$font-size-small: 10px;
+$font-size-extra-small: 12px;
+
+$color-principal: black;
+$color-secundary: rgb(255, 89, 0);
+$color-font: black;
+$color-anchor: black;
+$color-button: black;
+$color-button-font: white;
+$color-background: grey;
+
+
+
+/* ESTILO DE ETIQUETAS */
+
+body {
+    margin: 0px;
+    font-size: $font-size-small;
+    font-family: $font-family-principal;
+    font-weight: $font-weight-500;
+    color: $color-font;
+}
+
+a {
+    text-decoration: none;
+    color: $color-anchor;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+
+
+
+/* CLASES */
+
+/* FUENTES */
+
+/* Family */
+
+.font__principal {
+    font-family: $font-family-principal;
+}
+
+.font__secundary {
+    font-family: $font-family-secundary;
+}
+
+
+/* Size */
+
+.font__size--extra-big {
+    font-size: $font-size-extra-big;
+}
+
+.font__size--big {
+    font-size: $font-size-big;
+}
+
+.font__size--normal {
+    font-size: $font-size-normal;
+}
+
+.font__size--small {
+    font-size: $font-size-small;
+}
+.font__size--extra-small {
+    font-size: $font-size-extra-small;
+}
+
+
+/* Weight */
+
+.font__weight--300 {
+    font-weight: 300;
+}
+
+.font__weight--500 {
+    font-weight: 500;
+}
+
+.font__weight--700 {
+    font-weight: 700;
+}
+
+.font__weight--900 {
+    font-weight: 900;
+}
+
+/* Color */
+
+.font__color--principal {
+    color: $color-principal;
+}
+
+.font__color--secundary {
+    color: $color-secundary;
+}
+
+.font__color--principal {
+    color: $color-font;
+}
+
+.font__color--principal {
+    color: $color-principal;
+}
+
+
+.font__uppercase {
+    text-transform: uppercase;
+}
+
+.font__lowercase {
+    text-transform: lowercase;
+}
+
+
+
+
+/* DISPLAYS */
+
+/* Flex column*/
+
+.flex__column--center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__column--center-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.flex__column--center-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.flex__column--top-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex__column--top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.flex__column--top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+}
+
+.flex__column--bottom-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.flex__column--bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+
+.flex__column--bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+/* Flex row*/
+.flex__row--center-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__row--center-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.flex__row--center-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.flex__row--top-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.flex__row--top-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+}
+
+.flex__row--top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: start;
+}
+
+.flex__row--bottom-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.flex__row--bottom-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: end;
+}
+
+.flex__row--bottom-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
+}
+
+
+
+/* Flex spaces */
+
+.flex__row--space-arround {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.flex__row--space-between {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex__row--space-between-start {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex__column--space-arround {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: space-around;
+}
+
+.flex__column--space-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: space-between;
+}
+
+
+
+/* Display block */
+
+.inlineblock {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
+}
+
+
+
+/* DISPLAY FLEX WRAP */
+
+.wrap__row--top-center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+
+/* DISPLAY GRID */
+
+/* Horizontal grid */
+
+.grid_column--50-50 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_column--20-80 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.grid_column--25-50-25 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
